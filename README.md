@@ -8,7 +8,7 @@ I have been playing a lot of guitar and have gotten a little annoyed by how expe
 
 I was considering buying the [Empress ParaEQ MKII Deluxe](https://empresseffects.com/products/paraeq-mkii-deluxe), which is a three-band active EQ pedal with lots of fancy features. Each filter band lets you select the center frequency, the quality factor of the filter, and the gain. On top of this, it features global low and high pass filters with adjustable cutoff frequency, and Baxandall filters with adjustable gain.
 
-![empress ParaEQ MKII Deluxe](\figure\ParaEQMKIIDeluxe-top-transparent.webp)
+![empress ParaEQ MKII Deluxe](/figure/ParaEQMKIIDeluxe-top-transparent.webp)
 
 This pedal also operates at 27V internally, but is supplied by a standard 9V power supply. This means more clean gain without clipping.
 
