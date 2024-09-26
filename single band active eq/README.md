@@ -1,8 +1,8 @@
 ## Single Band Active EQ
 
-Huge win! I found a great resource on YouTube while learning about op-amp Gyrators. This guy made a [video]("https://www.youtube.com/watch?v=z35qaXGchjE&ab_channel=ElectronicswithProfessorFiore") about what I am trying to do literally 3 days ago!
+Huge win! I found a great resource on YouTube while learning about op-amp Gyrators. This guy made a [video](https://www.youtube.com/watch?v=z35qaXGchjE&ab_channel=ElectronicswithProfessorFiore) about what I am trying to do yesterday! This is all HEAVILY based on his lesson, so thanks a ton and check out his [channel](https://www.youtube.com/@ElectronicswithProfessorFiore)
 
-This single band parametric EQ circuit is based on a 4 op-amp state variable band pass filter. He also made a [video]("https://www.youtube.com/watch?v=esKrrjFJyuk&ab_channel=ElectronicswithProfessorFiore") about this topic, which details how to calculate component values.
+This single band parametric EQ circuit is based on a 4 op-amp state variable band pass filter. He also made a [video](https://www.youtube.com/watch?v=esKrrjFJyuk&ab_channel=ElectronicswithProfessorFiore) about this topic, which details how to calculate component values.
 
 Each state variable band pass filter will require 5 op amps, 2 dual-gang potentiometers, and one single gang poteniometer. I will likely need a dual op-amp to buffer the input and the output as well.
 
@@ -22,7 +22,7 @@ $$R_1=R_6=Q=\frac{F_0}{BW}$$
 
 If we want a filter with cutoff frequenct 1 kHz and bandwidth 200 Hz, the quality factor can be solved using the equation above. We can then put resistors of that value in the circuit! 
 
-$$R_1=R_6=Q=\frac{1 kHz}{200 Hz} = 5 \ \Omega$$
+$$R_1=R_6=Q=\frac{1 kHz}{200 Hz} = 5
 
 To change the quality factor of the filter while maintaining unity gain, we just need to adjust these two resistors.
 
@@ -52,3 +52,7 @@ Now all we have to do is make it cut or boost!
 <div style="text-align: center;">
     <img src = "/single band active eq/figure/AdjustableSVF.jpg" alt = "State variable Band Pass Schematic" style="width:500px;"/>
 </div>
+
+___
+
+### Adjusting the Gain
