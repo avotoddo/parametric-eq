@@ -8,9 +8,9 @@ Each state variable band pass filter will require 5 op amps, 2 dual-gang potenti
 
 ___
 
-### The Circuit
+### 4 Op-Amp State Variable BP Filter
 
-Let's start with a 4 op-amp state variable band pass filter. The schematic is shown below. Choosing R1 = R6 will set unity gain, while the value of R6 will determine the quality factor of the filter. The rest of the resistors will have the same value. Our capacitors will have the same value as well.
+Let's start with a 4 op-amp state variable band pass filter. The schematic is shown below. Choosing R1 = R6 will set unity gain, while the value of R6 will determine the quality factor of the filter. The rest of the resistors will have the same value as each other. Our two capacitors will have the same value as well.
 
 <div style="text-align: center;">
     <img src = "/single band active eq/figure/State Variable Schematic.jpg" alt = "State variable Band Pass Schematic" style="width:500px;"/>
@@ -38,3 +38,17 @@ $$C=\frac{1}{2\pi F_0}=\frac{1}{2\pi *1\ kHz} = 1.6 \ \mu F$$
 This circuit would work just fine with $R1$ and $R6$ = $5 \ \Omega$, all other all other $R=1\ \Omega$, and $C= 1.6 \ \mu F$. Currents in this circuit would likely be quite high, which isn't ideal. We can scale the impedance of the circuit by choosing a higher $R$ value and calculating the other values based on $F_0 = \frac{1}{2\pi RC}$
 
 If we make $R=10 \ k\Omega$, then we need to scale $C$ by a factor of $10^{-5}$ so our cutoff frequency stays the same. We can scale $R1$ and $R6$ the same way as $R$ and make them $50\ k\Omega$.
+
+___
+
+### Making it Adjustable
+
+Our quality factor and cutoff frequencies are each dependant on two resistors. We can replace each pair of resistor with a dual potentiometer and a resistor so we can change the cutoff frequency on the fly.
+
+In the below schematic, you can see I have added two dual potentiometers, RV1 and RV2, so we can adjust our filter.
+
+Now all we have to do is make it cut or boost!
+
+<div style="text-align: center;">
+    <img src = "/single band active eq/figure/AdjustableSVF.jpg" alt = "State variable Band Pass Schematic" style="width:500px;"/>
+</div>
