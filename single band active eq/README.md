@@ -90,6 +90,7 @@ We can use a standard 3300 pF capacitor, which will be super close enough for ou
 Next, we can solve for what we want the resistance value to be for the bottom end of our frequency range, using the capacitor we just solved for.
 
 $$250\ Hz = \frac{1}{2\pi * R * 3300 pF}$$
+
 $$R = \frac{1}{2\pi * 250 * 3300 pF} = 193k\Omega $$
 
 To achieve this frequency range, we can use a 10k resistor and something like a 200k potentiometer. This would make our bottom frequency 230 Hz, which isn't necessarily a bad thing and makes my life a lot easier with sourcing parts!
