@@ -69,7 +69,7 @@ Our potentiometer will allow us to choose if we are boosting or cutting the desi
 
 ___
 
-### Chosing Components
+### Choosing Components
 
 My plan is to build this single band parametric EQ on a breadboard so I can play around with it before adding more bands and designing PCBs. In order to do that though, I need to choose component values!
 
