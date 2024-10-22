@@ -17,6 +17,10 @@ I think starting with normal 9V operation and implimenting just a single band ac
 
 ---
 ### Circuit Block Diagram
+
+This circuit is a lot less intimidating when broken down into it's individual parts. A fairly high level block diagram is shown below.
 <div style="text-align: center;">
-    <img src = "/figure/Block Diagram.png" alt = "High Level Block Diagram" style="width:400px;"/>
+    <img src = "/figure/Block Diagram.png" alt = "High Level Block Diagram" style="width:1000px;"/>
 </div>
+
+We will start by buffering our input signal so it will play well with other electronics. Next we will send the signal through three parametric equalizer bands. Each band then be summed together using an inverting summing amplifier. Next, our signal will be sent through a Baxandall filter which can cut or boost bass and treble frequencies. After that, it will be sent through passive high pass and low pass filters with adjustable cutoff frequency. Finally, there is a boost stage, which will allow us to set the overall output volume of the signal. We probably want to buffer the output as well.
