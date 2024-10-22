@@ -96,3 +96,7 @@ $$R = \frac{1}{2\pi * 250 * 3300 pF} = 193k\Omega $$
 To achieve this frequency range, we can use a 10k resistor and something like a 200k potentiometer. This would make our bottom frequency 230 Hz, which isn't necessarily a bad thing and makes my life a lot easier with sourcing parts!
 
 We can get about 14 dB of gain or cut with a 5:1 gain ratio with our summing amplifier. This just means that RCBMAX needs to be 1/4 the value of R9 and R11. If I chose 10k resistors for those two, a 2.5K resistor would give me the desired level of boost or cut. Easy!
+
+### Biasing
+
+I will be using a single voltage supply for this circuit, so I will have to bias the op amps where needed. My reference voltage is half of my supply voltage. Luckily, for inverting op amps, this is as easy as pretending VREF is ground and connecting my VREF to the non-inverting side of the op amp.
