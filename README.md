@@ -16,4 +16,7 @@ This pedal also operates at 27V internally, but is supplied by a standard 9V pow
 I think starting with normal 9V operation and implimenting just a single band active EQ circuit on a breadboard is a good way to start.
 
 ---
-
+### Circuit Block Diagram
+<div style="text-align: center;">
+    <img src = "/figure/Block Diagram.png" alt = "High Level Block Diagram" style="width:400px;"/>
+</div>
